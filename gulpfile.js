@@ -2,6 +2,7 @@ var gulp        = require('gulp');
 var harp        = require('harp');
 var browserSync = require('browser-sync');
 var reload      = browserSync.reload;
+var cp          = require('child_process');
 var clean       = require('gulp-rimraf');
 
 /**
