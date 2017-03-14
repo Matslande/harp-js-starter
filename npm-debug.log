@@ -1,0 +1,85 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node', '/usr/local/bin/npm', 'publish' ]
+2 info using npm@3.10.10
+3 info using node@v6.10.0
+4 verbose publish [ '.' ]
+5 silly cache add args [ '.', null ]
+6 verbose cache add spec .
+7 silly cache add parsed spec Result {
+7 silly cache add   raw: '.',
+7 silly cache add   scope: null,
+7 silly cache add   escapedName: null,
+7 silly cache add   name: null,
+7 silly cache add   rawSpec: '.',
+7 silly cache add   spec: '/Users/matslande/Documents/00_WORK/MAMP/00_2017/yepp/mats',
+7 silly cache add   type: 'directory' }
+8 verbose addLocalDirectory /Users/matslande/.npm/nathanburkiewicz.com/1.0.0/package.tgz not in flight; packing
+9 verbose correctMkdir /Users/matslande/.npm correctMkdir not in flight; initializing
+10 info lifecycle nathanburkiewicz.com@1.0.0~prepublish: nathanburkiewicz.com@1.0.0
+11 silly lifecycle nathanburkiewicz.com@1.0.0~prepublish: no script for prepublish, continuing
+12 verbose tar pack [ '/Users/matslande/.npm/nathanburkiewicz.com/1.0.0/package.tgz',
+12 verbose tar pack   '/Users/matslande/Documents/00_WORK/MAMP/00_2017/yepp/mats' ]
+13 verbose tarball /Users/matslande/.npm/nathanburkiewicz.com/1.0.0/package.tgz
+14 verbose folder /Users/matslande/Documents/00_WORK/MAMP/00_2017/yepp/mats
+15 verbose addLocalTarball adding from inside cache /Users/matslande/.npm/nathanburkiewicz.com/1.0.0/package.tgz
+16 verbose correctMkdir /Users/matslande/.npm correctMkdir not in flight; initializing
+17 silly cache afterAdd nathanburkiewicz.com@1.0.0
+18 verbose afterAdd /Users/matslande/.npm/nathanburkiewicz.com/1.0.0/package/package.json not in flight; writing
+19 verbose correctMkdir /Users/matslande/.npm correctMkdir not in flight; initializing
+20 verbose afterAdd /Users/matslande/.npm/nathanburkiewicz.com/1.0.0/package/package.json written
+21 silly publish { name: 'nathanburkiewicz.com',
+21 silly publish   version: '1.0.0',
+21 silly publish   description: 'This is nathanburkiewicz.com. Welcome. Have a look around. Feel free to kick the tires.',
+21 silly publish   main: 'index.js',
+21 silly publish   scripts: { start: 'gulp', publish: 'gulp build && gulp deploy' },
+21 silly publish   author:
+21 silly publish    { name: 'Nathan Burkiewicz',
+21 silly publish      email: 'nathan.burkiewicz@gmail.com' },
+21 silly publish   license: 'ISC',
+21 silly publish   devDependencies:
+21 silly publish    { 'browser-sync': '^2.10.0',
+21 silly publish      gulp: '^3.9.0',
+21 silly publish      'gulp-gh-pages': '^0.5.4',
+21 silly publish      'gulp-rimraf': '^0.2.0',
+21 silly publish      harp: '^0.20.1' },
+21 silly publish   readme: '#nathanburkiewicz@com\n\nOriginal content for the nathanburkiewicz.com website. The content is converted into a website using Harp and automagically committed to the gh-pages pages branch thanks to Gulp.\n\nSite styling has been done with the help of [Bourbon](http://bourbon.io/) and [Neat](http://neat.bourbon.io/) from the good people at [thoughtbot](https://thoughtbot.com/).\n\nIf you\'d like to know more about how this site was built, [this article](http://nathanburkiewicz.com/articles/harp-gulp-sass) should help. If not, get in touch. I\'d be happy to answer any questions.\n',
+21 silly publish   readmeFilename: 'README.md',
+21 silly publish   gitHead: '61e7f6c48574873310c4f29a35423d6dad137b5c',
+21 silly publish   _id: 'nathanburkiewicz.com@1.0.0',
+21 silly publish   _shasum: '2f5a964d62714d804abcc4315e865c4501da4047',
+21 silly publish   _from: '.' }
+22 verbose getPublishConfig undefined
+23 silly mapToRegistry name nathanburkiewicz.com
+24 silly mapToRegistry using default registry
+25 silly mapToRegistry registry https://registry.npmjs.org/
+26 silly mapToRegistry data Result {
+26 silly mapToRegistry   raw: 'nathanburkiewicz.com',
+26 silly mapToRegistry   scope: null,
+26 silly mapToRegistry   escapedName: 'nathanburkiewicz.com',
+26 silly mapToRegistry   name: 'nathanburkiewicz.com',
+26 silly mapToRegistry   rawSpec: '',
+26 silly mapToRegistry   spec: 'latest',
+26 silly mapToRegistry   type: 'tag' }
+27 silly mapToRegistry uri https://registry.npmjs.org/nathanburkiewicz.com
+28 verbose publish registryBase https://registry.npmjs.org/
+29 silly publish uploading /Users/matslande/.npm/nathanburkiewicz.com/1.0.0/package.tgz
+30 verbose stack Error: auth required for publishing
+30 verbose stack     at CachingRegistryClient.publish (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/publish.js:30:14)
+30 verbose stack     at /usr/local/lib/node_modules/npm/lib/publish.js:138:14
+30 verbose stack     at mapToRegistry (/usr/local/lib/node_modules/npm/lib/utils/map-to-registry.js:62:3)
+30 verbose stack     at publish_ (/usr/local/lib/node_modules/npm/lib/publish.js:107:3)
+30 verbose stack     at Array.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/slide/lib/bind-actor.js:15:8)
+30 verbose stack     at LOOP (/usr/local/lib/node_modules/npm/node_modules/slide/lib/chain.js:15:14)
+30 verbose stack     at LOOP (/usr/local/lib/node_modules/npm/node_modules/slide/lib/chain.js:14:28)
+30 verbose stack     at chain (/usr/local/lib/node_modules/npm/node_modules/slide/lib/chain.js:20:5)
+30 verbose stack     at /usr/local/lib/node_modules/npm/lib/publish.js:73:5
+30 verbose stack     at RES (/usr/local/lib/node_modules/npm/node_modules/inflight/inflight.js:23:14)
+31 verbose cwd /Users/matslande/Documents/00_WORK/MAMP/00_2017/yepp/mats
+32 error Darwin 16.4.0
+33 error argv "/usr/local/bin/node" "/usr/local/bin/npm" "publish"
+34 error node v6.10.0
+35 error npm  v3.10.10
+36 error code ENEEDAUTH
+37 error need auth auth required for publishing
+38 error need auth You need to authorize this machine using `npm adduser`
+39 verbose exit [ 1, true ]

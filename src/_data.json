@@ -7,18 +7,6 @@
     "title": "About",
     "description": "About."
   },
-  "cv": {
-    "title": "CV",
-    "description": "CV."
-  },
-  "articles": {
-    "title": "Articles",
-    "description": "Articles."
-  },
-  "projects": {
-    "title": "Projects",
-    "description": "Projects."
-  },
   "404": {
     "title": "404",
     "description": "404."

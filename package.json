@@ -1,19 +1,17 @@
 {
-  "name": "nathanburkiewicz.com",
+  "name": "matslande.com",
   "version": "1.0.0",
-  "description": "This is nathanburkiewicz.com. Welcome. Have a look around. Feel free to kick the tires.",
+  "description": "This is a boilterplate for harp.js.",
   "main": "index.js",
   "scripts": {
     "start": "gulp",
     "publish": "gulp build && gulp deploy"
   },
-  "author": "Nathan Burkiewicz <nathan.burkiewicz@gmail.com>",
+  "author": "Mats Lande <matslande@gmail.com>",
   "license": "ISC",
   "devDependencies": {
     "browser-sync": "^2.10.0",
     "gulp": "^3.9.0",
-    "gulp-gh-pages": "^0.5.4",
-    "gulp-rimraf": "^0.2.0",
     "harp": "^0.20.1"
   }
 }

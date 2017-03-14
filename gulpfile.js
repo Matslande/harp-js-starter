@@ -15,7 +15,7 @@ gulp.task('serve', function () {
   }, function () {
     browserSync({
       proxy: "localhost:9000",
-      open: false,
+      open: true,
       /* Hide the notification. It gets annoying */
        notify: {
         styles: ['opacity: 0', 'position: absolute']
