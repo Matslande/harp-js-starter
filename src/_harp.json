@@ -1,6 +1,6 @@
 {
   "globals": {
-    "siteTitle": "Harp JS template",
+    "siteTitle": "Harp.js boilerplate",
     "tagline": "some tags",
     "name": "Your Name",
     "email": "yourname@yourmail.com",

@@ -1,130 +1,84 @@
-.cf:before, .cf:after {
-    content: " ";
-    display: table;
-}
-
-.cf:after {
-    clear: both;
-}
-
-.cf {
-    *zoom: 1;
-}
-
-.dn {
-    display: none;
-}
-
-.db {
-    display: block;
-}
-
-.fl {
-    float: left;
-    _display: inline;
-}
-
-.fr {
-    float: right;
-    _display: inline;
-}
-
-.fw6 {
-    font-weight: 600;
-}
-
-.lh-title {
-    line-height: 1.25;
-}
+// TITLE AND TEXT
 
 .lh-copy {
     line-height: 1.5;
-}
-
-.mw9 {
-    max-width: 96rem;
-}
-
-.w-100 {
-    width: 100%;
 }
 
 .pa3 {
     padding: 1rem;
 }
 
-.mb4 {
-    margin-bottom: 2rem;
+.f3 {
+    font-size: 1.5rem;
 }
 
-.mt0 {
-    margin-top: 0;
-}
-
-.f2 {
-    font-size: 2.25rem;
-}
-
-.f6 {
-    font-size: .875rem;
-}
-
-.center {
-    margin-right: auto;
-    margin-left: auto;
+.measure {
+    max-width: 30em;
 }
 
 @media screen and (min-width: 30em) {
-    .db-ns {
-        display: block;
-    }
-
-    .fl-ns {
-        float: left;
-        display: inline;
-    }
-
-    .mb5-ns {
-        margin-bottom: 4rem;
+    .pa5-ns {
+        padding: 4rem;
     }
 }
 
 @media screen and (min-width: 30em) and (max-width: 60em) {
-    .w-50-m {
-        width: 50%;
-    }
-
-    .pa4-m {
-        padding: 2rem;
-    }
-
-    .pr3-m {
-        padding-right: 1rem;
+    .f1-m {
+        font-size: 3rem;
     }
 }
 
 @media screen and (min-width: 60em) {
-    .db-l {
-        display: block;
+    .f-headline-l {
+        font-size: 6rem;
     }
+}
 
-    .w-20-l {
-        width: 20%;
-    }
+// LINK HEADER HOVER
+.dib {
+    display: inline-block;
+}
 
-    .w-80-l {
-        width: 80%;
-    }
+.fw7 {
+    font-weight: 700;
+}
 
-    .pa5-l {
-        padding: 4rem;
-    }
+.lh-copy {
+    line-height: 1.5;
+}
 
-    .pr5-l {
-        padding-right: 4rem;
-    }
+.black {
+    color: #000;
+}
 
-    .f1-l {
-        font-size: 3rem;
-    }
+.bg-white {
+    background-color: #fff;
+}
+
+.hover-bg-light-blue:hover {
+    background-color: #96ccff;
+}
+
+.hover-bg-light-blue:focus {
+    background-color: #96ccff;
+}
+
+.pa2 {
+    padding: .5rem;
+}
+
+.pa4 {
+    padding: 2rem;
+}
+
+.no-underline {
+    text-decoration: none;
+}
+
+.f4 {
+    font-size: 1.25rem;
+}
+
+.bg-animate, .bg-animate:hover, .bg-animate:focus {
+    transition: background-color .15s ease-in-out;
 }

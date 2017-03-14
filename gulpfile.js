@@ -2,8 +2,6 @@ var gulp        = require('gulp');
 var harp        = require('harp');
 var browserSync = require('browser-sync');
 var reload      = browserSync.reload;
-var deploy      = require('gulp-gh-pages');
-var cp          = require('child_process');
 var clean       = require('gulp-rimraf');
 
 /**
@@ -50,14 +48,6 @@ gulp.task('serve', function () {
 gulp.task('clean', function () {
   return gulp.src('dist', {read: false})
     .pipe(clean());
-});
-
-/**
- * Push build to gh-pages
- */
-gulp.task('deploy', function () {
-  return gulp.src("./dist/**/*")
-    .pipe(deploy());
 });
 
 /**
