@@ -1,0 +1,130 @@
+.cf:before, .cf:after {
+    content: " ";
+    display: table;
+}
+
+.cf:after {
+    clear: both;
+}
+
+.cf {
+    *zoom: 1;
+}
+
+.dn {
+    display: none;
+}
+
+.db {
+    display: block;
+}
+
+.fl {
+    float: left;
+    _display: inline;
+}
+
+.fr {
+    float: right;
+    _display: inline;
+}
+
+.fw6 {
+    font-weight: 600;
+}
+
+.lh-title {
+    line-height: 1.25;
+}
+
+.lh-copy {
+    line-height: 1.5;
+}
+
+.mw9 {
+    max-width: 96rem;
+}
+
+.w-100 {
+    width: 100%;
+}
+
+.pa3 {
+    padding: 1rem;
+}
+
+.mb4 {
+    margin-bottom: 2rem;
+}
+
+.mt0 {
+    margin-top: 0;
+}
+
+.f2 {
+    font-size: 2.25rem;
+}
+
+.f6 {
+    font-size: .875rem;
+}
+
+.center {
+    margin-right: auto;
+    margin-left: auto;
+}
+
+@media screen and (min-width: 30em) {
+    .db-ns {
+        display: block;
+    }
+
+    .fl-ns {
+        float: left;
+        display: inline;
+    }
+
+    .mb5-ns {
+        margin-bottom: 4rem;
+    }
+}
+
+@media screen and (min-width: 30em) and (max-width: 60em) {
+    .w-50-m {
+        width: 50%;
+    }
+
+    .pa4-m {
+        padding: 2rem;
+    }
+
+    .pr3-m {
+        padding-right: 1rem;
+    }
+}
+
+@media screen and (min-width: 60em) {
+    .db-l {
+        display: block;
+    }
+
+    .w-20-l {
+        width: 20%;
+    }
+
+    .w-80-l {
+        width: 80%;
+    }
+
+    .pa5-l {
+        padding: 4rem;
+    }
+
+    .pr5-l {
+        padding-right: 4rem;
+    }
+
+    .f1-l {
+        font-size: 3rem;
+    }
+}
